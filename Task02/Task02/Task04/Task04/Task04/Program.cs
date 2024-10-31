@@ -36,4 +36,3 @@ switch (WeekDay)
         Console.WriteLine("Incorrect number");
         break;
 }
-
