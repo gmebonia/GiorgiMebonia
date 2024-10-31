@@ -1,4 +1,6 @@
-﻿int WeekDay = 0;
+﻿//weekdays
+
+int WeekDay = 0;
 Console.Write("Hello, Enter number (1-7): ");
 WeekDay = int.Parse(Console.ReadLine());
 
