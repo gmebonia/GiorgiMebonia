@@ -1,8 +1,8 @@
 ﻿//metodebi
 
-int index = 0;
+//int index = 0;
 Console.WriteLine("Enter index:");
-index = int.Parse(Console.ReadLine());
+int index = int.Parse(Console.ReadLine());
 int[] array = new int[5];
 Console.WriteLine("Enter an integer:");
 
@@ -12,7 +12,7 @@ for (int i = 0; i < array.Length; i++)
 Console.WriteLine("Result:" + sumNumber(index, array));
 static int sumNumber(int index, int[] array)
 {
-    int num = array[index - 1];
+    int num = array[0];
     int sum = 0;
     while (num > 0)
     {
